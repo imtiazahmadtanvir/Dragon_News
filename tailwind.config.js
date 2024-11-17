@@ -1,12 +1,18 @@
 /** @type {import('tailwindcss').Config} */
-export default {
+// eslint-disable-next-line no-undef
+module.exports = {
   content: [
     "./src/**/*.{js,jsx,ts,tsx}",
   ],
   theme: {
-    extend: {},
+    extend: {
+      fontFamily: {
+        poppins: ["Poppins", "serif"],
+      },
+    },
   },
-  // eslint-disable-next-line no-undef
-  plugins: [require("daisyui")],
-}
-
+  plugins: [
+    // eslint-disable-next-line no-undef
+    require('daisyui'),
+  ],
+};
