@@ -12,4 +12,4 @@
 
 Let me know if you'd like more!</p> 
 
-Page link : https://imtiazahmadtanvir.github.io/Dragon_News/
+Page link : https://dragon-news-3e98b.firebaseapp.com/
